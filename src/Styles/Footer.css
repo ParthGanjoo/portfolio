@@ -1,0 +1,121 @@
+.footer {
+  width: 96%;
+  height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  background: #1A1A1A;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  margin: 0 26px;
+}
+
+.icons a:hover svg {
+    color: #ffffff;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+@media(max-width:768px) {
+  .footer {
+    width: 96%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    background: #1A1A1A;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+  .icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    margin: 0 22px;
+  }
+} 
+
+@media(max-width:390px) {
+  html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+  .footer {
+    width: 96%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #1A1A1A;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+  .icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin: 0 18px;
+  }
+}
+
+@media(max-width:414px) {
+  .footer {
+    width: 96%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #1A1A1A;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+  .icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin: 0 20px;
+  }
+}
